@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.propImage {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.Prop-Div {
+  text-align: left;
+}
+
+.Counter-Div {
+  text-align: right;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.squabble {
+  border: 1px solid black;
+  padding: 2vh;
+  margin-top: 1vh;
+  border-radius: 5px;
+}
+
+.post {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dedede;
+  padding: 10px;
+}
+
+button {
+  color: white;
+  
+  font-size: 11px;
+  font-weight: bolder;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  border-radius: 2px;
+  background-color: #331550;
+  border: 1px solid #331550;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.comment {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  color: black;
+}
+
+.voting {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.upvote {
+  background-color: #073525;
+  border: 1px solid #073525;
+  margin-right: 10px;
+}
+
+.downvote {
+  background-color: #ff0026;
+  border: 1px solid #ff0026;
+}
+
+.anus {
+  display: none;
+}
+
+.challenge-button {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 86%;
+  transform: translate(-50%, -50%);
+}
